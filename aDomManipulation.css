@@ -1,0 +1,275 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+
+  @media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+    /*copy this */
+
+    body {
+      font-family: Irish Grover;
+      background-image: url(Pictures/mainScreen2.png);
+      background-size: 700px;
+      background-repeat: no-repeat;
+      background-position: center 160px;
+      color:rgb(214, 207, 207);
+      font-size: 35px;
+      height: 875px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    header {
+      text-align: center;
+      font-size: 75px;
+      margin-top: 220px;
+      padding-top: 10px;
+      /* background: black; */
+      color: gray;
+      -webkit-text-fill-color: rgb(214, 207, 207);
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+    }
+  
+  
+    .mainSection {
+      display: flex;
+      flex-direction: column;
+      height: 250px;
+      width: 550px;
+      /* background: rgb(26, 131, 145); */
+      background-color: rgb(43, 214, 226);
+      background-size: cover;
+      border: 1px solid rgb(214, 207, 207);
+      margin-top: 480px;
+      margin-bottom: 200px;
+    }
+  
+    .mainSection span {
+      text-align: center;
+    }
+
+    .inspired{
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: rgb(161, 136, 136);
+    }
+
+  
+    button {
+      font-family: arial;
+      cursor: pointer;
+      font-size: 25px;
+      font-weight: bold;
+      background-color: transparent;
+      color: rgb(102, 102, 102);
+      /* -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black; */
+      border-radius: 10px;
+      border-color: gray;
+    }
+
+    #pikachu {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  
+    section {
+      height: 60px;
+      display: flex;
+      align-items: center;
+      padding: 0px;
+      border-radius: 15px;
+    }
+  
+   
+    ul {
+      display: flex; 
+      flex-direction: row;
+      list-style: none;
+      padding-right: 25px;
+      margin: 0px;
+    }
+  
+    li {
+      text-align: center;
+      padding: 2px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+    body {
+      background-image: url(Pictures/mainScreen2.png);
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-color: yellow;
+      background-position: center;
+      color: rgb(214, 207, 207);
+      font-size: 40px;
+      height: 1200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  
+    }
+  
+    header {
+      text-align: center;
+      font-size: 80px;
+      margin-bottom: 300px;
+      background: black;
+      color: gray;
+      -webkit-text-fill-color: rgb(214, 207, 207);
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+    }
+  
+  
+    .mainSection {
+      display: flex;
+      flex-direction: column;
+      height: 400px;
+      width: 600px;
+      background-image: url(https://i.pinimg.com/564x/71/32/cd/7132cd7573af1030f211f05fe76fbe66.jpg);
+      background-size: cover;
+      border: 1px solid rgb(214, 207, 207);
+      margin-top: 200px;
+    }
+  
+    .mainSection span {
+      text-align: center;
+    }
+  
+    button {
+      cursor: pointer;
+      font-size: 30px;
+      background-color: transparent;
+      color: white;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+    }
+  
+    section {
+      height: 100px;
+      display: flex;
+      align-items: center;
+    }
+  
+   
+    ul {
+      display: flex; 
+      flex-direction: row;
+      list-style: none;
+      padding-right: 25px;
+    }
+  
+    li {
+      text-align: center;
+      padding: 5px;
+    }
+}
+
+/*
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+   
+    body {
+      background-image: url(mainScreen2.png);
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: red;
+      color: rgb(214, 207, 207);
+      font-size: 40px;
+      height: 1200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  
+    }
+  
+    header {
+      text-align: center;
+      font-size: 80px;
+      margin-bottom: 300px;
+      background: black;
+      color: gray;
+      -webkit-text-fill-color: rgb(214, 207, 207);
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+    }
+  
+  
+    .mainSection {
+      display: flex;
+      flex-direction: column;
+      height: 400px;
+      width: 600px;
+      background-image: url(https://i.pinimg.com/564x/71/32/cd/7132cd7573af1030f211f05fe76fbe66.jpg);
+      background-size: cover;
+      border: 1px solid rgb(214, 207, 207);
+      margin-top: 200px;
+    }
+  
+    .mainSection span {
+      text-align: center;
+    }
+  
+    button {
+      cursor: pointer;
+      font-size: 30px;
+      background-color: transparent;
+      color: white;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+    }
+  
+    section {
+      height: 100px;
+      display: flex;
+      align-items: center;
+    }
+  
+   
+    ul {
+      display: flex; 
+      flex-direction: row;
+      list-style: none;
+      padding-right: 25px;
+    }
+  
+    li {
+      text-align: center;
+      padding: 5px;
+    }
+}
+  
+*/
+  
+  
