@@ -33,7 +33,7 @@ function luigi() {
 document.getElementById('yoshi').addEventListener('click', yoshi)
 
 function yoshi() {
-    document.querySelector('body').style.backgroundImage = 'url(Pictures/yoshi1.jpg)'
+    document.querySelector('body').style.backgroundImage = 'url(Pictures/Yoshi1.jpg)'
     document.querySelector('body').style.backgroundSize='550px'
     document.querySelector('body').style.backgroundPosition= 'center 110px' 
     document.querySelector('header').style.background= 'transparent'
