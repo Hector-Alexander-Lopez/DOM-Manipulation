@@ -1,9 +1,8 @@
-/* Box Model Hack */
 * {
     box-sizing: border-box;
   }
   
-  /* Clear fix hack */
+
   .clearfix:after {
        content: ".";
        display: block;
@@ -17,11 +16,8 @@
       clear: both;
   }
   
-  /******************************************
-  /* BASE STYLES
-  /*******************************************/
 
-  @media only screen and (min-width: 768px) {
+  /* @media only screen and (min-width: 768px) { 
     /* tablets and desktop */
     /*copy this */
 
@@ -31,8 +27,6 @@
       background-size: 700px;
       background-repeat: no-repeat;
       background-position: center 160px;
-      color:rgb(214, 207, 207);
-      font-size: 35px;
       height: 875px;
       display: flex;
       align-items: center;
@@ -45,11 +39,14 @@
       font-size: 75px;
       margin-top: 220px;
       padding-top: 10px;
-      /* background: black; */
-      color: gray;
-      -webkit-text-fill-color: rgb(214, 207, 207);
-      -webkit-text-stroke-width: 1px;
+      color: rgb(103, 209, 54);
+      -webkit-text-stroke-width: 2px;
       -webkit-text-stroke-color: black;
+    }
+
+    #inspired {
+      color: rgb(243, 139, 203);
+      font-size: 30px;
     }
   
   
@@ -58,43 +55,48 @@
       flex-direction: column;
       height: 250px;
       width: 550px;
-      /* background: rgb(26, 131, 145); */
-      background-color: rgb(43, 214, 226);
+      font-size: 40px;
+      color:rgb(103, 61, 182);
+      /* -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black; */
+      background-color: rgb(43, 153, 226);
       background-size: cover;
-      border: 1px solid rgb(214, 207, 207);
+      border: 1px solid black;
       margin-top: 480px;
       margin-bottom: 200px;
+    }
+
+    .mainSection > span {
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
     }
   
     .mainSection span {
       text-align: center;
     }
 
-    .inspired{
-      font-size: 20px;
-      margin-bottom: 10px;
-      color: rgb(161, 136, 136);
-    }
-
   
     button {
-      font-family: arial;
+      font-family: mclaren;
       cursor: pointer;
-      font-size: 25px;
-      font-weight: bold;
+      font-size: 24px;
+      /* font-weight: bold; */
       background-color: transparent;
-      color: rgb(102, 102, 102);
+      color: white;
       /* -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: black; */
+      -webkit-text-stroke-color: white; */
       border-radius: 10px;
-      border-color: gray;
+      /* border-color: rgb(39, 137, 182); */
     }
 
     #pikachu {
       font-size: 20px;
       font-weight: bold;
     }
-  
+
+    /* .buttons {
+      background-color: rgb(43, 153, 226);
+    } */
     section {
       height: 60px;
       display: flex;
@@ -115,14 +117,12 @@
     li {
       text-align: center;
       padding: 2px;
-
     }
-
-
-}
-
+/*}
+/*
 @media only screen and (max-width: 767px) {
     /* phones */
+    /*
     body {
       background-image: url(Pictures/mainScreen2.png);
       background-size: auto;
@@ -193,7 +193,7 @@
       text-align: center;
       padding: 5px;
     }
-}
+} */
 
 /*
 @media only screen and (max-width: 767px) and (orientation: portrait) {
