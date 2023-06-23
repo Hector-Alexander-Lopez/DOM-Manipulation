@@ -1,4 +1,4 @@
-//Random Person Conditional
+//Random Person Conditional 
 document.getElementById('random').addEventListener('click' , randomPerson)
     function randomPerson() {
         let random = Math.random()
@@ -24,9 +24,7 @@ document.getElementById('random').addEventListener('click' , randomPerson)
     }
 
 
-//DOM changes
-
-//FIX BOLD FONT ISSUES 
+//DOM changes with Event Listeners
 
 document.getElementById('mario').addEventListener('click' , mario)
 
