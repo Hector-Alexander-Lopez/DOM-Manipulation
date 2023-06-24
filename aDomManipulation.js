@@ -1,4 +1,5 @@
 //Random Person Conditional 
+
 document.getElementById('random').addEventListener('click' , randomPerson)
     function randomPerson() {
         let random = Math.random()
@@ -32,6 +33,7 @@ function mario() {
     document.querySelector('body').style.backgroundImage = "url(Pictures/marioWithBackground.jpg.png)"
     document.querySelector('body').style.backgroundSize='1500px'
     document.querySelector('body').style.backgroundPosition= 'center'
+    document.querySelector('body').style.backgroundColor = 'rgb(1,161,233)'
     document.querySelector('header').style.background= 'transparent'
     document.querySelector('header').style.color = 'rgb(210, 208, 206)'
     document.querySelector('span').style.color = 'white'
