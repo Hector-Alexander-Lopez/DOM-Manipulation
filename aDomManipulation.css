@@ -249,7 +249,7 @@
   .mainSection {
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 300px;
     width: 400px;
     font-size: 25px;
     color:rgb(103, 61, 182);
@@ -275,7 +275,7 @@
   button {
     font-family: mclaren;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 5px;
     background-color: transparent;
     color: white;
     /* -webkit-text-stroke-width: 1px;
@@ -284,7 +284,7 @@
   }
 
   #pikachu {
-    font-size: 12px;
+    font-size: 2px;
   }
 
   section {
