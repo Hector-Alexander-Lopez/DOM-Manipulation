@@ -18,7 +18,8 @@
   
 
   @media only screen and (min-width: 768px) { 
-    /* tablets and desktop */ 
+    /* desktop */ 
+   
 
     body {
       font-family: Irish Grover;
@@ -26,7 +27,7 @@
       background-size: 700px;
       background-repeat: no-repeat;
       background-position: center 210px;
-      height: 876px;
+      height: 875px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -117,9 +118,9 @@
       padding: 2px;
     }
 }
-
-@media only screen and (max-width: 767px) {
-    /* phones */
+/*481 */
+@media only screen and (min-width: 502px) and (max-width: 767px) {
+    /* tablets */
     body {
       font-family: Irish Grover;
       background-image: url(Pictures/mainScreen2.png);
@@ -212,83 +213,101 @@
     }
 
 }    
+
+/*480 */
+@media only screen and  (max-width: 501px){
+
+  body {
+    font-family: Irish Grover;
+    background-image: url(Pictures/mainScreen2.png);
+    background-size: 475px;
+    background-repeat: no-repeat;
+    background-position: center 175px;
+    height: 875px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  header {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 75px;
+    padding-top: 10px;
+    color: rgb(103, 209, 54);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+
+  #inspired {
+    color: rgb(243, 139, 203);
+    font-size: 17px;
+  }
+
+
+  .mainSection {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 400px;
+    font-size: 25px;
+    color:rgb(103, 61, 182);
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; */
+    background-color: rgb(43, 153, 226);
+    background-size: cover;
+    border: 1px solid black;
+    margin-top: 400px;
+    margin-bottom: 170px;
+  }
+
+  .mainSection > span {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+
+  .mainSection span {
+    text-align: center;
+  }
+
+
+  button {
+    font-family: mclaren;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white; */
+    border-radius: 10px;
+  }
+
+  #pikachu {
+    font-size: 18px;
+  }
+
+  section {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    border-radius: 15px;
+  }
+
+  ul {
+    display: flex; 
+    flex-direction: row;
+    list-style: none;
+    padding-right: 25px;
+    margin: 0px;
+  }
+
+  li {
+    text-align: center;
+    padding: 2px;
+  }
+
+}
     
 
-
-/* @media only screen and (max-width: 767px) and (orientation: portrait) {
-   
-    body {
-      background-image: url(mainScreen2.png);
-      background-size: auto;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-color: red;
-      color: rgb(214, 207, 207);
-      font-size: 40px;
-      height: 1200px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-  
-    }
-  
-    header {
-      text-align: center;
-      font-size: 80px;
-      margin-bottom: 300px;
-      background: black;
-      color: gray;
-      -webkit-text-fill-color: rgb(214, 207, 207);
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: black;
-    }
-  
-  
-    .mainSection {
-      display: flex;
-      flex-direction: column;
-      height: 400px;
-      width: 600px;
-      background-image: url(https://i.pinimg.com/564x/71/32/cd/7132cd7573af1030f211f05fe76fbe66.jpg);
-      background-size: cover;
-      border: 1px solid rgb(214, 207, 207);
-      margin-top: 200px;
-    }
-  
-    .mainSection span {
-      text-align: center;
-    }
-  
-    button {
-      cursor: pointer;
-      font-size: 30px;
-      background-color: transparent;
-      color: white;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: black;
-    }
-  
-    section {
-      height: 100px;
-      display: flex;
-      align-items: center;
-    }
-  
-   
-    ul {
-      display: flex; 
-      flex-direction: row;
-      list-style: none;
-      padding-right: 25px;
-    }
-  
-    li {
-      text-align: center;
-      padding: 5px;
-    }
-}
-  
-*/ */
-  
-  
