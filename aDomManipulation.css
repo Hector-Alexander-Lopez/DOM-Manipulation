@@ -275,7 +275,7 @@
   button {
     font-family: mclaren;
     cursor: pointer;
-    font-size: 5px;
+    font-size: 12px;
     background-color: transparent;
     color: white;
     /* -webkit-text-stroke-width: 1px;
@@ -284,7 +284,7 @@
   }
 
   #pikachu {
-    font-size: 2px;
+    font-size: 10px;
   }
 
   section {
