@@ -283,9 +283,12 @@
   button {
     font-family: mclaren;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 13px;
     background-color: transparent;
     color: white;
+    padding: 10;
+    margin: 10px;
+    height: 30px;
     /* -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white; */
     border-radius: 10px;
