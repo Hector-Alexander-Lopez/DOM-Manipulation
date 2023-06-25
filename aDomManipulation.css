@@ -26,7 +26,7 @@
     body {
       font-family: Irish Grover;
       background-image: url(Pictures/mainScreen2.png);
-      background-size: 500px;
+      background-size: 450px;
       background-repeat: no-repeat;
       background-position: center 190px;
       height: 530px;
@@ -228,7 +228,7 @@
   body {
     font-family: Irish Grover;
     background-image: url(Pictures/mainScreen2.png);
-    background-size: 500px;
+    background-size: 450px;
     background-repeat: no-repeat;
     background-position: center 190px;
     height: 825px;
@@ -259,7 +259,7 @@
     flex-direction: column;
     height: 300px;
     width: 400px;
-    font-size: 25px;
+    font-size: 23px;
     color:rgb(103, 61, 182);
     /* -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black; */
@@ -291,9 +291,9 @@
     border-radius: 10px;
   }
 
-  #pikachu {
+  /* #pikachu {
     font-size: 12px;
-  }
+  } */
 
   section {
     height: 50px;
