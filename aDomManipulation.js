@@ -406,8 +406,8 @@ document.getElementById('mainMenu').addEventListener('click', mainMenu)
 
 function mainMenu(){
     document.querySelector('body').style.backgroundImage = 'url(Pictures/mainScreen2.png)'
-    document.querySelector('body').style.backgroundSize= '575px'
-    document.querySelector('body').style.backgroundPosition= 'center 150px'
+    document.querySelector('body').style.backgroundSize= '500px'
+    document.querySelector('body').style.backgroundPosition= 'center 160px'
     document.querySelector('body').style.backgroundColor= 'white'
     document.querySelector('.mainSection').style.background= 'rgb(43, 153, 226)'
     document.querySelector('.mainSection').style.color = 'rgb(103, 61, 182)'

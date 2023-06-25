@@ -26,9 +26,9 @@
     body {
       font-family: Irish Grover;
       background-image: url(Pictures/mainScreen2.png);
-      background-size: 575px;
+      background-size: 500px;
       background-repeat: no-repeat;
-      background-position: center 150px;
+      background-position: center 160px;
       height: 530px;
       /* width: 625px;
       margin: 0 auto; */
@@ -228,9 +228,9 @@
   body {
     font-family: Irish Grover;
     background-image: url(Pictures/mainScreen2.png);
-    background-size: 450px;
+    background-size: 500px;
     background-repeat: no-repeat;
-    background-position: center 175px;
+    background-position: center 160px;
     height: 825px;
     display: flex;
     align-items: center;
@@ -241,7 +241,7 @@
   header {
     text-align: center;
     font-size: 40px;
-    margin-top: 75px;
+    margin-top: 150px;
     padding-top: 10px;
     color: rgb(103, 209, 54);
     -webkit-text-stroke-width: 2px;
