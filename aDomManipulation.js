@@ -89,7 +89,7 @@ function mario() {
 document.getElementById('luigi').addEventListener('click' , luigi)
 
 function luigi() {
-    document.querySelector('body').style.backgroundImage = "url(Pictures/sluigi.png)"
+    document.querySelector('body').style.backgroundImage = "url(Pictures/Sluigi.png)"
     document.querySelector('body').style.backgroundColor= 'rgb(18, 76, 18)'
     document.querySelector('body').style.backgroundPosition= 'center 150px'
     document.querySelector('body').style.backgroundSize ='380px'
