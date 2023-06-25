@@ -24,16 +24,35 @@ document.getElementById('random').addEventListener('click' , randomPerson)
         }
     }
 
+//Event Listeners
+// function mobileMediaQuery(){
+//     if(window.innerWidth < 501){
+//         return document.querySelector('body').style.backgroundSize = '10px'
+//     }
+// }
 
-//DOM changes with Event Listeners
+// window.addEventListener('resize', mobileMediaQuery)
+
+// function tabletMediaQuery(){
+//     if(window.innerWidth > 502){
+//         return document.querySelector('body').style.backgroundSize = '5000px'
+//     }
+// }
+
+// window.addEventListener('resize', tabletMediaQuery)
+
+
+// DOM changes 
+
+
 
 document.getElementById('mario').addEventListener('click' , mario)
 
 function mario() {
-    document.querySelector('body').style.backgroundImage = "url(Pictures/marioWithBackground.jpg.png)"
-    document.querySelector('body').style.backgroundSize='1500px'
-    document.querySelector('body').style.backgroundPosition= 'center'
-    document.querySelector('body').style.backgroundColor = 'rgb(1,161,233)'
+    document.querySelector('body').style.backgroundImage = "url(Pictures/smario.png)"
+    document.querySelector('body').style.backgroundSize='500px'
+    document.querySelector('body').style.backgroundPosition= 'center 150px'
+    document.querySelector('body').style.backgroundColor = 'rgb(11, 105, 240)'
     document.querySelector('header').style.background= 'transparent'
     document.querySelector('header').style.color = 'rgb(210, 208, 206)'
     document.querySelector('span').style.color = 'white'
@@ -70,10 +89,10 @@ function mario() {
 document.getElementById('luigi').addEventListener('click' , luigi)
 
 function luigi() {
-    document.querySelector('body').style.backgroundImage = "url(Pictures/luigi2.png)"
-    document.querySelector('body').style.backgroundColor= 'rgb(0,100,50)'
-    document.querySelector('body').style.backgroundPosition= 'center'
-    document.querySelector('body').style.backgroundSize ='800px'
+    document.querySelector('body').style.backgroundImage = "url(Pictures/sluigi.png)"
+    document.querySelector('body').style.backgroundColor= 'rgb(18, 76, 18)'
+    document.querySelector('body').style.backgroundPosition= 'center 150px'
+    document.querySelector('body').style.backgroundSize ='380px'
     document.querySelector('header').style.background= 'transparent'
     document.querySelector('header').style.color = 'rgb(210, 208, 206)'
     document.querySelector('span').style.color = 'white'
@@ -110,13 +129,13 @@ document.getElementById('yoshi').addEventListener('click', yoshi)
 
 function yoshi() {
     document.querySelector('body').style.backgroundImage = 'url(Pictures/Yoshi1.jpg)'
-    document.querySelector('body').style.backgroundSize='550px'
-    document.querySelector('body').style.backgroundPosition= 'center 110px' 
+    document.querySelector('body').style.backgroundSize='430px'
+    document.querySelector('body').style.backgroundPosition= 'center 140px' 
     document.querySelector('body').style.color ='rgb(214, 207, 207)'
     document.querySelector('body').style.backgroundColor= 'green'
     document.querySelector('header').style.background= 'transparent'
     document.querySelector('header').style.color ='rgb(250, 217, 104)'
-    document.querySelector('span').style.color = 'green'
+    document.querySelector('span').style.color = 'black'
     document.querySelector('span').style.backgroundColor = 'transparent'
     document.querySelector('.mainSection').style.background= 'rgb(250, 217, 104)'
     document.querySelector('.mainSection').style.color='rgb(165, 120, 51)'
@@ -149,9 +168,10 @@ function yoshi() {
 document.getElementById('link').addEventListener('click' , link)
 
 function link() {
-    document.querySelector('body').style.backgroundImage = 'url(Pictures/sausagelink2.png)'
-    document.querySelector('body').style.backgroundSize= '900px'
-    document.querySelector('body').style.backgroundPosition= 'center center' 
+    document.querySelector('body').style.backgroundImage = 'url(Pictures/sausage_Link.png)'
+    document.querySelector('body').style.backgroundSize= '400px'
+    document.querySelector('body').style.backgroundPosition= 'center 140px' 
+    document.querySelector('body').style.backgroundColor = 'rgb(73, 39, 27)'
     document.querySelector('header').style.background= 'transparent'
     document.querySelector('header').style.color ='rgb(133, 190, 49)'
     document.querySelector('span').style.color = 'black'
@@ -187,9 +207,9 @@ function link() {
 document.getElementById('donkeyKong').addEventListener('click', donkeyKong)
 
 function donkeyKong(){
-    document.querySelector('body').style.backgroundImage = 'url(Pictures/dk.png)'
-    document.querySelector('body').style.backgroundSize= '800px'
-    document.querySelector('body').style.backgroundPosition= 'center 50px'
+    document.querySelector('body').style.backgroundImage = 'url(Pictures/dk1.png)'
+    document.querySelector('body').style.backgroundSize= '400px'
+    document.querySelector('body').style.backgroundPosition= 'center 140px'
     document.querySelector('body').style.backgroundColor= 'rgb(40,20,20)'
     document.querySelector('header').style.background= 'transparent'
     document.querySelector('header').style.color = 'rgb(255, 0, 0)'
@@ -227,8 +247,8 @@ document.getElementById('fox').addEventListener('click' , fox)
 
 function fox() {
     document.querySelector('body').style.backgroundImage= 'url(Pictures/fox1.png)'
-    document.querySelector('body').style.backgroundSize= '800px'
-    document.querySelector('body').style.backgroundPosition= 'center 25px'
+    document.querySelector('body').style.backgroundSize= '410px'
+    document.querySelector('body').style.backgroundPosition= 'center 140px'
     document.querySelector('body').style.color= 'rgb(214, 207, 207)'
     document.querySelector('body').style.backgroundColor= 'navy'
     document.querySelector('header').style.background= 'transparent'
@@ -266,9 +286,9 @@ function fox() {
 document.getElementById('spongebob').addEventListener('click' , spongebob)
 
 function spongebob() {
-    document.querySelector('body').style.backgroundImage = 'url(Pictures/doodlebob.png)'
-    document.querySelector('body').style.backgroundSize= '800px'
-    document.querySelector('body').style.backgroundPosition= 'center 100px'
+    document.querySelector('body').style.backgroundImage = 'url(Pictures/doodlebob1.png)'
+    document.querySelector('body').style.backgroundSize= '425px'
+    document.querySelector('body').style.backgroundPosition= 'center 140px'
     document.querySelector('body').style.color= 'rgb(214, 207, 207)'
     document.querySelector('body').style.backgroundColor= 'rgb(0, 67, 178)'
     document.querySelector('header').style.background= 'transparent'
@@ -306,9 +326,9 @@ function spongebob() {
 document.getElementById('pikachu').addEventListener('click' , pikachu)
 
 function pikachu() {
-    document.querySelector('body').style.backgroundImage = 'url(Pictures/pikachu1.png)'
-    document.querySelector('body').style.backgroundSize= '1200px'
-    document.querySelector('body').style.backgroundPosition= 'center'
+    document.querySelector('body').style.backgroundImage = 'url(Pictures/peekachoo.png)'
+    document.querySelector('body').style.backgroundSize= '400px'
+    document.querySelector('body').style.backgroundPosition= 'center 140px'
     document.querySelector('body').style.color= 'rgb(214, 207, 207)'
     document.querySelector('body').style.backgroundColor= 'navy'
     document.querySelector('header').style.backgroundColor= 'transparent'
@@ -346,9 +366,9 @@ function pikachu() {
 document.getElementById('jiren').addEventListener('click' , jiren)
 
 function jiren() {
-    document.querySelector('body').style.backgroundImage = 'url(Pictures/jiren1.png)'
-    document.querySelector('body').style.backgroundSize= '1000px'
-    document.querySelector('body').style.backgroundPosition= 'center -50px'
+    document.querySelector('body').style.backgroundImage = 'url(Pictures/geeren.png)'
+    document.querySelector('body').style.backgroundSize= '425px'
+    document.querySelector('body').style.backgroundPosition= 'center 110px'
     document.querySelector('body').style.backgroundColor= 'black'
     document.querySelector('header').style.background= 'transparent'
     document.querySelector('header').style.color= 'rgb(169, 3, 27)'
@@ -386,8 +406,8 @@ document.getElementById('mainMenu').addEventListener('click', mainMenu)
 
 function mainMenu(){
     document.querySelector('body').style.backgroundImage = 'url(Pictures/mainScreen2.png)'
-    document.querySelector('body').style.backgroundSize= '700px'
-    document.querySelector('body').style.backgroundPosition= 'center 160px'
+    document.querySelector('body').style.backgroundSize= '575px'
+    document.querySelector('body').style.backgroundPosition= 'center 150px'
     document.querySelector('body').style.backgroundColor= 'white'
     document.querySelector('.mainSection').style.background= 'rgb(43, 153, 226)'
     document.querySelector('.mainSection').style.color = 'rgb(103, 61, 182)'

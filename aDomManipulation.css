@@ -3,6 +3,8 @@
   }
   
 
+  /*COMPRESS EVERYTHING*/
+
   .clearfix:after {
        content: ".";
        display: block;
@@ -24,21 +26,25 @@
     body {
       font-family: Irish Grover;
       background-image: url(Pictures/mainScreen2.png);
-      background-size: 700px;
+      background-size: 575px;
       background-repeat: no-repeat;
-      background-position: center 210px;
-      height: 875px;
+      background-position: center 150px;
+      height: 530px;
+      /* width: 625px;
+      margin: 0 auto; */
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
+      /* border: 8px solid;
+      padding: 10px;
+      border-image: repeating-linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89)) 20; */
     }
   
     header {
       text-align: center;
-      font-size: 75px;
-      margin-top: 250px;
-      padding-top: 10px;
+      font-size: 55px;
+      margin-top: 380px;
       color: rgb(103, 209, 54);
       -webkit-text-stroke-width: 2px;
       -webkit-text-stroke-color: black;
@@ -46,7 +52,7 @@
 
     #inspired {
       color: rgb(243, 139, 203);
-      font-size: 30px;
+      font-size: 25px;
     }
   
   
@@ -55,15 +61,16 @@
       flex-direction: column;
       height: 250px;
       width: 550px;
-      font-size: 40px;
+      font-size: 35px;
       color:rgb(103, 61, 182);
       /* -webkit-text-stroke-width: 1px;
       -webkit-text-stroke-color: black; */
       background-color: rgb(43, 153, 226);
       background-size: cover;
       border: 1px solid black;
-      margin-top: 480px;
-      margin-bottom: 200px;
+      padding-top: 10px;
+      margin-top: 400px;
+      margin-bottom: 100px;
     }
 
     .mainSection > span {
@@ -78,29 +85,30 @@
     button {
       font-family: mclaren;
       cursor: pointer;
-      font-size: 24px;
+      font-size: 20px;
       /* font-weight: bold; */
       background-color: transparent;
       color: white;
+      margin: 5px;
       /* -webkit-text-stroke-width: 1px;
       -webkit-text-stroke-color: white; */
       border-radius: 10px;
       /* border-color: rgb(39, 137, 182); */
     }
-
+/* 
     #pikachu {
       font-size: 20px;
-      font-weight: bold;
-    }
+
+    } */
 
     /* .buttons {
       background-color: rgb(43, 153, 226);
     } */
     section {
-      height: 60px;
+      height: 45px;
       display: flex;
       align-items: center;
-      padding: 0px;
+      padding: 10px;
       border-radius: 15px;
     }
   
@@ -151,7 +159,7 @@
   
   
     .mainSection {
-      display: flex;
+      /* display: flex; */
       flex-direction: column;
       height: 250px;
       width: 500px;
