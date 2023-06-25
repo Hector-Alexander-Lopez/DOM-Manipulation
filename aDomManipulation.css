@@ -28,7 +28,7 @@
       background-image: url(Pictures/mainScreen2.png);
       background-size: 500px;
       background-repeat: no-repeat;
-      background-position: center 160px;
+      background-position: center 190px;
       height: 530px;
       /* width: 625px;
       margin: 0 auto; */
@@ -230,7 +230,7 @@
     background-image: url(Pictures/mainScreen2.png);
     background-size: 500px;
     background-repeat: no-repeat;
-    background-position: center 160px;
+    background-position: center 190px;
     height: 825px;
     display: flex;
     align-items: center;
