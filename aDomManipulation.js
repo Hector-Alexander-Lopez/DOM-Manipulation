@@ -50,8 +50,8 @@ document.getElementById('mario').addEventListener('click' , mario)
 
 function mario() {
     document.querySelector('body').style.backgroundImage = "url(Pictures/smario.png)"
-    document.querySelector('body').style.backgroundSize='500px'
-    document.querySelector('body').style.backgroundPosition= 'center 150px'
+    document.querySelector('body').style.backgroundSize='475px'
+    document.querySelector('body').style.backgroundPosition= 'center 170px'
     document.querySelector('body').style.backgroundColor = 'rgb(11, 105, 240)'
     document.querySelector('header').style.background= 'transparent'
     document.querySelector('header').style.color = 'rgb(210, 208, 206)'
