@@ -24,24 +24,6 @@ document.getElementById('random').addEventListener('click' , randomPerson)
         }
     }
 
-//Event Listeners
-// function mobileMediaQuery(){
-//     if(window.innerWidth < 501){
-//         return document.querySelector('body').style.backgroundSize = '10px'
-//     }
-// }
-
-// window.addEventListener('resize', mobileMediaQuery)
-
-// function tabletMediaQuery(){
-//     if(window.innerWidth > 502){
-//         return document.querySelector('body').style.backgroundSize = '5000px'
-//     }
-// }
-
-// window.addEventListener('resize', tabletMediaQuery)
-
-
 // DOM changes 
 
 
