@@ -51,7 +51,7 @@ document.getElementById('mario').addEventListener('click' , mario)
 function mario() {
     document.querySelector('body').style.backgroundImage = "url(Pictures/smario.png)"
     document.querySelector('body').style.backgroundSize='475px'
-    document.querySelector('body').style.backgroundPosition= 'center 170px'
+    document.querySelector('body').style.backgroundPosition= 'center 155px'
     document.querySelector('body').style.backgroundColor = 'rgb(11, 105, 240)'
     document.querySelector('header').style.background= 'transparent'
     document.querySelector('header').style.color = 'rgb(210, 208, 206)'
@@ -130,7 +130,7 @@ document.getElementById('yoshi').addEventListener('click', yoshi)
 function yoshi() {
     document.querySelector('body').style.backgroundImage = 'url(Pictures/Yoshi1.jpg)'
     document.querySelector('body').style.backgroundSize='430px'
-    document.querySelector('body').style.backgroundPosition= 'center 140px' 
+    document.querySelector('body').style.backgroundPosition= 'center 150px' 
     document.querySelector('body').style.color ='rgb(214, 207, 207)'
     document.querySelector('body').style.backgroundColor= 'green'
     document.querySelector('header').style.background= 'transparent'
@@ -170,7 +170,7 @@ document.getElementById('link').addEventListener('click' , link)
 function link() {
     document.querySelector('body').style.backgroundImage = 'url(Pictures/sausage_Link.png)'
     document.querySelector('body').style.backgroundSize= '400px'
-    document.querySelector('body').style.backgroundPosition= 'center 140px' 
+    document.querySelector('body').style.backgroundPosition= 'center 150px' 
     document.querySelector('body').style.backgroundColor = 'rgb(73, 39, 27)'
     document.querySelector('header').style.background= 'transparent'
     document.querySelector('header').style.color ='rgb(133, 190, 49)'
@@ -248,7 +248,7 @@ document.getElementById('fox').addEventListener('click' , fox)
 function fox() {
     document.querySelector('body').style.backgroundImage= 'url(Pictures/fox1.png)'
     document.querySelector('body').style.backgroundSize= '410px'
-    document.querySelector('body').style.backgroundPosition= 'center 140px'
+    document.querySelector('body').style.backgroundPosition= 'center 150px'
     document.querySelector('body').style.color= 'rgb(214, 207, 207)'
     document.querySelector('body').style.backgroundColor= 'navy'
     document.querySelector('header').style.background= 'transparent'
@@ -288,7 +288,7 @@ document.getElementById('spongebob').addEventListener('click' , spongebob)
 function spongebob() {
     document.querySelector('body').style.backgroundImage = 'url(Pictures/doodlebob1.png)'
     document.querySelector('body').style.backgroundSize= '425px'
-    document.querySelector('body').style.backgroundPosition= 'center 140px'
+    document.querySelector('body').style.backgroundPosition= 'center 150px'
     document.querySelector('body').style.color= 'rgb(214, 207, 207)'
     document.querySelector('body').style.backgroundColor= 'rgb(0, 67, 178)'
     document.querySelector('header').style.background= 'transparent'
@@ -328,7 +328,7 @@ document.getElementById('pikachu').addEventListener('click' , pikachu)
 function pikachu() {
     document.querySelector('body').style.backgroundImage = 'url(Pictures/peekachoo.png)'
     document.querySelector('body').style.backgroundSize= '400px'
-    document.querySelector('body').style.backgroundPosition= 'center 140px'
+    document.querySelector('body').style.backgroundPosition= 'center 155px'
     document.querySelector('body').style.color= 'rgb(214, 207, 207)'
     document.querySelector('body').style.backgroundColor= 'navy'
     document.querySelector('header').style.backgroundColor= 'transparent'
@@ -368,12 +368,12 @@ document.getElementById('jiren').addEventListener('click' , jiren)
 function jiren() {
     document.querySelector('body').style.backgroundImage = 'url(Pictures/geeren.png)'
     document.querySelector('body').style.backgroundSize= '425px'
-    document.querySelector('body').style.backgroundPosition= 'center 110px'
+    document.querySelector('body').style.backgroundPosition= 'center 125px'
     document.querySelector('body').style.backgroundColor= 'black'
     document.querySelector('header').style.background= 'transparent'
     document.querySelector('header').style.color= 'rgb(169, 3, 27)'
     document.querySelector('span').style.color = 'black'
-    document.querySelector('span').style.backgroundColor = 'transparent'
+    document.querySelector('span').style.backgroundColor = 'rgba(85, 99, 128,.8)'
     document.querySelector('.mainSection').style.background= 'rgb(85, 99, 128)'
     document.querySelector('.mainSection').style.color='rgb(169, 3, 27)'
     
