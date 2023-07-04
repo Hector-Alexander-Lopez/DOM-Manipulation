@@ -19,7 +19,7 @@
   }
   
 
-  @media only screen and (min-width: 768px) { 
+  @media only screen and (min-width: 1025px) { 
     /* desktop */ 
    
     body {
@@ -85,24 +85,12 @@
       font-family: mclaren;
       cursor: pointer;
       font-size: 20px;
-      /* font-weight: bold; */
       background-color: transparent;
       color: white;
       margin: 5px;
-      /* -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: white; */
       border-radius: 10px;
-      /* border-color: rgb(39, 137, 182); */
     }
-/* 
-    #pikachu {
-      font-size: 20px;
 
-    } */
-
-    /* .buttons {
-      background-color: rgb(43, 153, 226);
-    } */
     section {
       height: 45px;
       display: flex;
@@ -128,7 +116,7 @@
 
 
 /*481 */
-@media only screen and (min-width: 501px) and (max-width: 767px) {
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
     /* tablets */
     body {
       font-family: Irish Grover;
@@ -137,15 +125,10 @@
       background-repeat: no-repeat;
       background-position: center 190px;
       height: 530px;
-      /* width: 625px;
-      margin: 0 auto; */
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      /* border: 8px solid;
-      padding: 10px;
-      border-image: repeating-linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89)) 20; */
     }
   
     header {
