@@ -20,16 +20,6 @@ body {
   padding-top: 30px;
 }
 
-#reloadReplay {
-  background-color: black;
-  padding: 10px;
-  position: fixed; 
-  bottom: 0; 
-  left: 0; 
-  width: 100%; 
-}
-
-
 .entered {
   font-family: Irish Grover;
   background-image: url(Pictures/mainScreen2.png);
@@ -122,6 +112,16 @@ li {
   text-align: center;
   padding: 1.25px;
 }
+
+/* In case I want to add the audio controls on the bottom of the page later
+#reloadReplay {
+  background-color: black;
+  padding: 10px;
+  position: fixed; 
+  bottom: 0; 
+  left: 0; 
+  width: 100%; 
+} */
 
 @media only screen and (min-width: 1701px) {
 
