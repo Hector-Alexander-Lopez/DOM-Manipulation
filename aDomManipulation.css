@@ -113,7 +113,141 @@
     padding: 1.25px;
   }
 
-  @media only screen and (min-width: 780px) and (max-width: 844.99px){
+  @media only screen and (min-width: 1701px){
+
+    body{
+      padding-top: 40px;
+    }
+
+    header{
+      font-size: 70px;
+      padding-top: 0;
+    }
+
+    #inspired{
+      font-size: 35px;
+    }
+
+    .entered{
+      background-position: center 30%;
+      height: 100%;
+    }
+
+    .mainSection{
+      padding-top: 0;
+      height: 500px;
+      width: 50%;
+    }
+
+    .mainSection > span {
+      font-size: 43px;
+      padding-bottom: 10px;
+    }
+
+    button{
+      font-size: 18px;
+      height: 57px;
+      width: 125px;
+      margin: 0 15px 5px 15px;
+    }
+
+    .buttons{
+      height: 100px;
+    }
+
+  }
+
+  @media only screen and (min-width: 1350px) and (max-width: 1700px){
+
+    body{
+      padding-top: 40px;
+    }
+
+    header{
+      font-size: 60px;
+      padding-top: 0;
+    }
+
+    #inspired{
+      font-size: 25px;
+    }
+
+    .entered{
+      background-position: center 130%;
+      height: 950px;
+    }
+
+    .mainSection{
+      padding-top: 0;
+      height: 100%;
+      width: 75%;
+    }
+
+    .mainSection > span {
+      font-size: 33px;
+      padding-bottom: 10px;
+    }
+
+    button{
+      font-size: 17px;
+      height: 50px;
+      width: 125px;
+      margin: 0 15px 5px 15px;
+    }
+
+    .buttons{
+      height: 60px;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 1115px) and (max-width: 1349.99px){
+
+    body{
+      padding-top: 40px;
+    }
+
+    header{
+      font-size: 60px;
+      padding-top: 0;
+    }
+
+    #inspired{
+      font-size: 25px;
+    }
+
+    .entered{
+      background-position: center 70%;
+      height: 950px;
+    }
+
+    .mainSection{
+      padding-top: 0;
+      height: 100%;
+      width: 75%;
+    }
+
+    .mainSection > span {
+      font-size: 33px;
+      padding-bottom: 10px;
+    }
+
+    button{
+      font-size: 17px;
+      height: 50px;
+      width: 125px;
+      margin: 0 15px 5px 15px;
+    }
+
+    .buttons{
+      height: 60px;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 780px) and (max-width: 1114.99px){
 
     body{
       padding-top: 40px;
@@ -145,8 +279,8 @@
     }
 
     button{
-      font-size: 16px;
-      height: 45px;
+      font-size: 17px;
+      height: 50px;
       width: 125px;
       margin: 0 15px 5px 15px;
     }
