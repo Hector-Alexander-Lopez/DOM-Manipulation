@@ -123,7 +123,7 @@ li {
   width: 100%; 
 } */
 
-@media only screen and (min-width: 1701px) {
+@media only screen and (min-width: 1595px) {
 
   body {
     padding-top: 40px;
@@ -167,7 +167,7 @@ li {
 
 }
 
-@media only screen and (min-width: 1350px) and (max-width: 1700px) {
+@media only screen and (min-width: 1350px) and (max-width: 1594.99px) {
 
   body {
     padding-top: 40px;
