@@ -113,8 +113,107 @@
     padding: 1.25px;
   }
 
-  @media only screen and (min-width: 465px) and (max-width: 1024px){
+  @media only screen and (min-width: 780px) and (max-width: 844.99px){
 
+    body{
+      padding-top: 40px;
+    }
+
+    header{
+      font-size: 60px;
+      padding-top: 0;
+    }
+
+    #inspired{
+      font-size: 25px;
+    }
+
+    .entered{
+      background-position: center 40%;
+      height: 950px;
+    }
+
+    .mainSection{
+      padding-top: 0;
+      height: 100%;
+      width: 75%;
+    }
+
+    .mainSection > span {
+      font-size: 33px;
+      padding-bottom: 10px;
+    }
+
+    button{
+      font-size: 16px;
+      height: 45px;
+      width: 125px;
+      margin: 0 15px 5px 15px;
+    }
+
+    .buttons{
+      height: 60px;
+    }
+
+  }
+
+  @media only screen and (min-width: 565px) and (max-width: 779.99px){
+
+    body{
+      padding-top: 40px;
+    }
+
+    header{
+      font-size: 45px;
+      padding-top: 0;
+    }
+
+    #inspired{
+      font-size: 25px;
+    }
+
+    .entered{
+      background-position: center 42%;
+      height: 750px;
+    }
+
+    .mainSection{
+      padding-top: 0;
+      height: 100%;
+      width: 75%;
+    }
+
+    .mainSection > span {
+      font-size: 30px;
+      padding-bottom: 5px;
+    }
+
+    button{
+      font-size: 15px;
+      height: 45px;
+      width: 125px;
+      margin: 0 5px 5px 0;
+    }
+
+}
+
+  @media only screen and (min-width: 465px) and (max-width: 564.99px){
+
+      body{
+        padding-top: 50px;
+      }
+
+      header{
+        padding-top: 0;
+      }
+
+      .entered{
+        background-position: center 50%;
+      }
+
+      .mainSection{
+        padding-top: 0;
+      }
 
   }
 
