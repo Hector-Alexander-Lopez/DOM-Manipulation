@@ -25,6 +25,10 @@
 </head>
 
 <body>
+    <audio id="reloadReplay" autoplay>
+        <source src="audio/actionTheme.m4a" type="audio/mpeg">
+    </audio>
+
     <section class="entered animate-rotate">
         <header class="animate-scale">Superb Shatter Siblings</header>
 
@@ -32,30 +36,30 @@
 
 
         <section class="mainSection">
-            <span>CHOOSE YOUR...PERSON</span>
+            <span class="choose delayed-rotation">CHOOSE YOUR...PERSON</span>
             <section class="buttons">
                 <ul>
-                    <li><button id="mario" class="animate-fade-in">Smario</button> </li>
-                    <li><button id="luigi" class="animate-fade-in">Sluigi</button> </li>
-                    <li><button id="yoshi" class="animate-fade-in">Broshi</button> </li>
+                    <li><button id="mario" class="animate-slide-from-topLeft">Smario</button> </li>
+                    <li><button id="luigi" class="animate-slide-from-topRight">Sluigi</button> </li>
+                    <li><button id="yoshi" class="animate-slide-from-bottomRight">Broshi</button> </li>
                 </ul>
             </section>
             <section class="buttons">
                 <ul>
-                    <li><button id="link" class="animate-slide-in">Sausage Link</button> </li>
-                    <li><button id="donkeyKong" class="animate-slide-in">Konkey Dong</button> </li>
-                    <li><button id="fox" class="animate-slide-in">Lil Fox</button> </li>
+                    <li><button id="link" class="animate-slide-in-r">Sausage Link</button> </li>
+                    <li><button id="donkeyKong" class="animate-slide-from-bottom">Konkey Dong</button> </li>
+                    <li><button id="fox" class="animate-slide-in-l">Lil Fox</button> </li>
                 </ul>
             </section>
             <section class="buttons">
                 <ul>
-                    <li><button id="spongebob" class="animate-fade-in">Doodlebob</button> </li>
-                    <li><button id="pikachu" class="animate-fade-in">Peek-a-choo</button> </li>
-                    <li class="jiren"><button id="jiren" class="animate-fade-in">GeeRen </button> </li>
+                    <li><button id="spongebob" class="animate-slide-from-bottomLeft">Doodlebob</button> </li>
+                    <li><button id="pikachu" class="animate-slide-from-bottomRight">Peek-a-choo</button> </li>
+                    <li class="jiren"><button id="jiren" class="animate-slide-from-topRight">GeeRen </button> </li>
                 </ul>
             </section>
-            <section> <button id="mainMenu" class="animate-slide-in">Main Menu</button>
-                <button id="random" class="animate-slide-in">Random</button>
+            <section> <button id="mainMenu" class="animate-slide-from-top">Main Menu</button>
+                <button id="random" class="animate-slide-from-bottom">Random</button>
             </section>
         </section>
     </section>

@@ -1,3 +1,13 @@
+//audio reload/replay
+const actionTheme = document.getElementById("reloadReplay");
+
+reloadReplay.addEventListener("ended", function () {
+  reloadReplay.currentTime = 0;
+  reloadReplay.play();
+});
+
+actionTheme.volume = 0.2;
+
 //Random Person Conditional
 
 document.getElementById("random").addEventListener("click", randomPerson);
