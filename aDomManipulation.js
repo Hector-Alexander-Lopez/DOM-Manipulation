@@ -35,6 +35,7 @@ function mario() {
   //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.backgroundColor =
     "rgb(11, 105, 240)";
+  document.querySelector("body").style.backgroundColor = "rgb(11, 105, 240)";
   document.querySelector("header").style.background = "transparent";
   document.querySelector("header").style.color = "rgb(210, 208, 206)";
   document.querySelector("span").style.color = "white";
@@ -78,6 +79,7 @@ function luigi() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/Sluigi.png)";
   document.querySelector(".entered").style.backgroundColor = "rgb(18, 76, 18)";
+  document.querySelector("body").style.backgroundColor = "rgb(18, 76, 18)";
   document.querySelector(".entered").style.backgroundSize = "50%";
   //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector("header").style.background = "transparent";
@@ -123,6 +125,7 @@ function yoshi() {
   //   document.querySelector(".entered").style.backgroundPosition = "center 47%";
   document.querySelector(".entered").style.color = "rgb(214, 207, 207)";
   document.querySelector(".entered").style.backgroundColor = "green";
+  document.querySelector("body").style.backgroundColor = "green";
   document.querySelector("header").style.background = "transparent";
   document.querySelector("header").style.color = "rgb(250, 217, 104)";
   document.querySelector("span").style.color = "black";
@@ -165,9 +168,10 @@ document.getElementById("link").addEventListener("click", link);
 function link() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/sausage_Link.png)";
-  document.querySelector(".entered").style.backgroundSize = "60%";
+  document.querySelector(".entered").style.backgroundSize = "55%";
   //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.backgroundColor = "rgb(73, 39, 27)";
+  document.querySelector("body").style.backgroundColor = "rgb(73, 39, 27)";
   document.querySelector("header").style.background = "transparent";
   document.querySelector("header").style.color = "rgb(133, 190, 49)";
   document.querySelector("span").style.color = "black";
@@ -208,9 +212,10 @@ document.getElementById("donkeyKong").addEventListener("click", donkeyKong);
 function donkeyKong() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/dk1.png)";
-  //   document.querySelector(".entered").style.backgroundSize = "80%";
+  document.querySelector(".entered").style.backgroundSize = "60%";
   //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.backgroundColor = "rgb(40,20,20)";
+  document.querySelector("body").style.backgroundColor = "rgb(40,20,20)";
   document.querySelector("header").style.background = "transparent";
   document.querySelector("header").style.color = "rgb(255, 0, 0)";
   document.querySelector("span").style.color = "rgb(255, 0, 0)";
@@ -253,12 +258,13 @@ document.getElementById("fox").addEventListener("click", fox);
 function fox() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/fox1.png)";
-  //   document.querySelector(".entered").style.backgroundSize = "80%";
+  document.querySelector(".entered").style.backgroundSize = "58%";
   //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.color = "rgb(214, 207, 207)";
-  document.querySelector(".entered").style.backgroundColor = "navy";
+  document.querySelector(".entered").style.backgroundColor = "rgb(11, 43, 53)";
+  document.querySelector("body").style.backgroundColor = "rgb(11, 43, 53)";
   document.querySelector("header").style.background = "transparent";
-  document.querySelector("header").style.color = "rgb(41, 60, 75)";
+  document.querySelector("header").style.color = "rgb(75,115,145)";
   document.querySelector("span").style.color = "rgb(237, 207, 147)";
   document.querySelector("span").style.backgroundColor = "transparent";
   document.querySelector(".mainSection").style.background = "rgb(16, 62, 75)";
@@ -298,10 +304,11 @@ document.getElementById("spongebob").addEventListener("click", spongebob);
 function spongebob() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/doodlebob1.png)";
-  //   document.querySelector(".entered").style.backgroundSize = "80%";
+  document.querySelector(".entered").style.backgroundSize = "60%";
   //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.color = "rgb(214, 207, 207)";
   document.querySelector(".entered").style.backgroundColor = "rgb(0, 67, 178)";
+  document.querySelector("body").style.backgroundColor = "rgb(0, 67, 178)";
   document.querySelector("header").style.background = "transparent";
   document.querySelector("header").style.color = "rgb(210, 208, 206)";
   document.querySelector("span").style.color = "black";
@@ -343,10 +350,11 @@ document.getElementById("pikachu").addEventListener("click", pikachu);
 function pikachu() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/peekachoo.png)";
-  //   document.querySelector(".entered").style.backgroundSize = "80%";
+  document.querySelector(".entered").style.backgroundSize = "55%";
   //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.color = "rgb(214, 207, 207)";
   document.querySelector(".entered").style.backgroundColor = "navy";
+  document.querySelector("body").style.backgroundColor = "navy";
   document.querySelector("header").style.backgroundColor = "transparent";
   document.querySelector("header").style.color = "rgb(247, 255, 122)";
   document.querySelector("span").style.color = "white";
@@ -387,9 +395,10 @@ document.getElementById("jiren").addEventListener("click", jiren);
 function jiren() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/geeren.png)";
-  document.querySelector(".entered").style.backgroundSize = "55%";
+  document.querySelector(".entered").style.backgroundSize = "50%";
   //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.backgroundColor = "black";
+  document.querySelector("body").style.backgroundColor = "black";
   document.querySelector("header").style.background = "transparent";
   document.querySelector("header").style.color = "rgb(169, 3, 27)";
   document.querySelector("span").style.color = "black";
@@ -434,6 +443,7 @@ function mainMenu() {
   document.querySelector(".entered").style.backgroundSize = "80%";
   //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.backgroundColor = "white";
+  document.querySelector("body").style.backgroundColor = "white";
   document.querySelector(".mainSection").style.background = "rgb(43, 153, 226)";
   document.querySelector(".mainSection").style.color = "rgb(103, 61, 182)";
   document.querySelector("span").style.color = "rgb(243, 139, 203)";
