@@ -536,3 +536,15 @@ li {
   }
 }
 
+.animate-jump{
+  transition: transform 0.2 ease;
+}
+
+.animate-jump:hover{
+  transform: translateY(-10px);
+} 
+
+.animate-jump:not(:hover){
+  transition: transform 1.2s ease;
+  transform: translateY(0);
+}
