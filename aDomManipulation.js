@@ -1,5 +1,5 @@
 // -------TYPESCRIPT-------
-// showcasing some TypeScript skillsbut commenting out for runtime purposes
+// showcasing some TypeScript skills but commenting out for runtime purposes
 
 // TYPESCRIPT// const reloadReplay: HTMLMediaElement = document.getElementById("reloadReplay") as HTMLMediaElement;
 const reloadReplay = document.getElementById("reloadReplay");
