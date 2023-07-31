@@ -1,18 +1,24 @@
-//audio reload/replay
-const actionTheme = document.getElementById("reloadReplay");
+// -------TYPESCRIPT-------
+// showcasing some TypeScript skillsbut commenting out for runtime purposes
+
+// TYPESCRIPT// const reloadReplay: HTMLMediaElement = document.getElementById("reloadReplay") as HTMLMediaElement;
+const reloadReplay = document.getElementById("reloadReplay");
 
 reloadReplay.addEventListener("ended", function () {
   reloadReplay.currentTime = 0;
   reloadReplay.play();
 });
 
+// TYPESCRIPT // const actionTheme: HTMLMediaElement = document.getElementById("reloadReplay") as HTMLMediaElement;
+const actionTheme = document.getElementById("reloadReplay");
 actionTheme.volume = 0.2;
 
-//Random Person Conditional
+//Random Person Conditional Statment
 
 document.getElementById("random").addEventListener("click", randomPerson);
 function randomPerson() {
   let random = Math.random();
+  // TYPESCRIPT// let random: number = Math.random();
   if (random < 0.1111) {
     return mario();
   } else if (random < 0.2222) {
@@ -34,7 +40,7 @@ function randomPerson() {
   }
 }
 
-// DOM changes
+// DOM changes in Vanilla JavaScript
 
 document.getElementById("mario").addEventListener("click", mario);
 
@@ -42,7 +48,6 @@ function mario() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/smario.png)";
   document.querySelector(".entered").style.backgroundSize = "70%";
-  //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.backgroundColor =
     "rgb(11, 105, 240)";
   document.querySelector("body").style.backgroundColor = "rgb(11, 105, 240)";
@@ -91,7 +96,6 @@ function luigi() {
   document.querySelector(".entered").style.backgroundColor = "rgb(18, 76, 18)";
   document.querySelector("body").style.backgroundColor = "rgb(18, 76, 18)";
   document.querySelector(".entered").style.backgroundSize = "50%";
-  //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector("header").style.background = "transparent";
   document.querySelector("header").style.color = "rgb(210, 208, 206)";
   document.querySelector("span").style.color = "white";
@@ -132,7 +136,6 @@ function yoshi() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/Yoshi1.jpg)";
   document.querySelector(".entered").style.backgroundSize = "60%";
-  //   document.querySelector(".entered").style.backgroundPosition = "center 47%";
   document.querySelector(".entered").style.color = "rgb(214, 207, 207)";
   document.querySelector(".entered").style.backgroundColor = "green";
   document.querySelector("body").style.backgroundColor = "green";
@@ -179,7 +182,6 @@ function link() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/sausage_Link.png)";
   document.querySelector(".entered").style.backgroundSize = "55%";
-  //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.backgroundColor = "rgb(73, 39, 27)";
   document.querySelector("body").style.backgroundColor = "rgb(73, 39, 27)";
   document.querySelector("header").style.background = "transparent";
@@ -223,7 +225,6 @@ function donkeyKong() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/dk1.png)";
   document.querySelector(".entered").style.backgroundSize = "60%";
-  //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.backgroundColor = "rgb(40,20,20)";
   document.querySelector("body").style.backgroundColor = "rgb(40,20,20)";
   document.querySelector("header").style.background = "transparent";
@@ -269,7 +270,6 @@ function fox() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/fox1.png)";
   document.querySelector(".entered").style.backgroundSize = "58%";
-  //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.color = "rgb(214, 207, 207)";
   document.querySelector(".entered").style.backgroundColor = "rgb(11, 43, 53)";
   document.querySelector("body").style.backgroundColor = "rgb(11, 43, 53)";
@@ -315,7 +315,6 @@ function spongebob() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/doodlebob1.png)";
   document.querySelector(".entered").style.backgroundSize = "60%";
-  //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.color = "rgb(214, 207, 207)";
   document.querySelector(".entered").style.backgroundColor = "rgb(0, 67, 178)";
   document.querySelector("body").style.backgroundColor = "rgb(0, 67, 178)";
@@ -361,7 +360,6 @@ function pikachu() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/peekachoo.png)";
   document.querySelector(".entered").style.backgroundSize = "55%";
-  //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.color = "rgb(214, 207, 207)";
   document.querySelector(".entered").style.backgroundColor = "navy";
   document.querySelector("body").style.backgroundColor = "navy";
@@ -406,7 +404,6 @@ function jiren() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/geeren.png)";
   document.querySelector(".entered").style.backgroundSize = "50%";
-  //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.backgroundColor = "black";
   document.querySelector("body").style.backgroundColor = "black";
   document.querySelector("header").style.background = "transparent";
@@ -451,7 +448,6 @@ function mainMenu() {
   document.querySelector(".entered").style.backgroundImage =
     "url(Pictures/mainScreen2.png)";
   document.querySelector(".entered").style.backgroundSize = "80%";
-  //   document.querySelector(".entered").style.backgroundPosition = "center 50%";
   document.querySelector(".entered").style.backgroundColor = "white";
   document.querySelector("body").style.backgroundColor = "white";
   document.querySelector(".mainSection").style.background = "rgb(43, 153, 226)";
